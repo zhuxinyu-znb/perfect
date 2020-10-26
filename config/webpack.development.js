@@ -22,7 +22,8 @@ module.exports = {
     inline: true,
     hot: true,
     quiet: true,
-    port: 8082,
+    host: '0.0.0.0',
+    port: 9001,
     watchContentBase: true,
   },
   plugins: [
