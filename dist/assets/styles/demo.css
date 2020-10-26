@@ -1,0 +1,14 @@
+:root {
+  --navColor: yellowgreen;
+}
+.components-demo {
+  color: aliceblue
+}
+.components-demo .nav {
+    color: yellowgreen;
+    color: var(--navColor);
+  }
+.components-demo h3 {
+    color: yellowgreen;
+  }
+

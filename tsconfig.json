@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "jsx": "react",
+    "target": "es5",
+    "lib": ["es6", "dom"],
+    "types": ["node", "jest"],
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "typeRoots": ["typings", "./node_modules/@types"],
+    "baseUrl": "./src",
+    "paths": {
+      "@components/*": ["web/components/*"],
+      "@utils/*": ["web/utils/*"],
+      "@assets/*": ["web/assets"],
+      "@models/*": ["web/models/*"],
+      "@routes/*": ["web/routes/*"],
+      "@pages/*": ["web/pages/*"],
+      "@tools/*": ["web/tools/*"]
+    }
+  },
+  "include": ["src", "tests"],
+  "exclude": ["node_modules", "webpack.config.js", "gulpfile.js"]
+}

@@ -1,0 +1,6 @@
+[2020-10-25T15:33:38.055] [ERROR] cheese - [Error: ENOENT: no such file or directory, open '/Users/yuanzhijia/Desktop/yd-react-generator/src/server/views/index.html'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/yuanzhijia/Desktop/yd-react-generator/src/server/views/index.html'
+}

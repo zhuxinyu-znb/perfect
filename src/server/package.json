@@ -1,0 +1,36 @@
+{
+  "name": "yd-ts-bff",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpileOnly app.ts",
+    "start": "pm2 start pm2.json"
+  },
+  "dependencies": {
+    "@types/co": "^4.6.2",
+    "@types/koa": "^2.11.3",
+    "@types/koa-router": "^7.4.1",
+    "@types/koa-static": "^4.0.1",
+    "@types/node": "^14.0.13",
+    "awilix": "^4.2.6",
+    "awilix-koa": "^4.0.0",
+    "co": "^4.6.0",
+    "koa": "^2.12.1",
+    "koa-router": "^9.0.1",
+    "koa-static": "^5.0.0",
+    "koa-swig": "^2.2.1",
+    "koa2-connect-history-api-fallback": "^0.1.2",
+    "typescript": "^3.9.5",
+    "@types/log4js": "^2.3.5",
+    "log4js": "^6.3.0",
+    "@types/module-alias": "^2.0.0",
+    "module-alias": "^2.2.2"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^1.0.0-pre.49"
+  },
+  "keywords": [],
+  "author": "",
+  "description": ""
+}

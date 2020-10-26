@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "strict": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "typeRoots": ["typings", "./node_modules/@types"],
+    "baseUrl": "./",
+    "paths": {
+      "@interfaces/*": ["shared/*"],
+      "@config/*": ["config/*"],
+      "@middlewares/*": ["middlewares/*"]
+    }
+  },
+  "include": ["**/*.ts"]
+}

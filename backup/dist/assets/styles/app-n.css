@@ -1,0 +1,15 @@
+
+  .components-loading span {
+    color: yellowgreen;
+  }
+
+html,
+body {
+  height: 100%;
+  background-size: cover;
+  background-image: url(/assets/images/bg.jpg) !important;
+}
+.components-home h2 {
+    color: red;
+  }
+

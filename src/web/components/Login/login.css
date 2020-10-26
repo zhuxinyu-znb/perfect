@@ -1,0 +1,13 @@
+.components-login {
+  & h1 {
+    color: yellowgreen;
+  }
+  & span {
+    color: olive;
+  }
+  & a {
+    display: inline-block;
+    margin-right: 10px;
+    color: aliceblue;
+  }
+}
